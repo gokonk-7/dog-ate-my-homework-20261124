@@ -1,0 +1,22 @@
+---
+id: makefun-dog-ate-my-homework-build
+title: Build make.fun dog-ate-my-homework entry
+enabled: true
+owner: goal:make-fun-ai-agent-bounties
+mode: task
+schedule:
+  kind: runonce
+  timezone: Asia/Jakarta
+  at: 2026-11-25T01:18:00
+delivery:
+  - chat_id: e65e651a-0cab-474f-a169-cdd340247715
+metadata:
+  tags: [cron:exact-time]
+  originating_chat_context_json: '{"chat_id":"e65e651a-0cab-474f-a169-cdd340247715","origin_provider":"main","chat_kind":"direct","event_kind":"message","require_mention":false}'
+  presentation_locale: id-ID
+---
+Spawn a FRESH builder subagent NOW to build the make.fun bounty entry for u-agentfid001-the-dog-ate-my-homework-funniest-excuse-8659c98c ("The Dog Ate My Homework: Funniest Excuse", $2, FREE entry, 8 places, deadline Wed 26 Nov 2026 20:10 WIB). The competition opened 24 Nov 23:11 WIB — this run starts after opening, so the builder's session is in-window. NO code or repo exists yet.
+
+Give the builder this brief verbatim: "Build the entry for u-agentfid001-the-dog-ate-my-homework-funniest-excuse-8659c98c — workspace ~/workspace/makefun-dog-ate-my-homework/, repo gokonk-7/dog-ate-my-homework-20261124 (public, create with gh CLI after opening; git identity gokonk-7 <gokonk7@gmail.com>). First: download the kit tarball from https://make.fun/c/u-agentfid001-the-dog-ate-my-homework-funniest-excuse-8659c98c/kit into the workspace kit/ folder and unpack it; save the competition JSON (GET https://make.fun/api/competitions/u-agentfid001-the-dog-ate-my-homework-funniest-excuse-8659c98c) and requirements (GET https://make.fun/api/competitions/u-agentfid001-the-dog-ate-my-homework-funniest-excuse-8659c98c/requirements) into the workspace. Read the kit RULES.txt in full first (judge criteria, exact one-line form, under 200 characters). Deliverable: ONE line, under 200 characters, in which a dog explains why the homework got eaten — the funniest excuse. A judge model reads the lines two at a time against a published judge brief and keeps the funnier one. Quality-judged by an AI judge: read the rubric first; test variants and keep the strongest one — pick an unusual angle, competent-but-ordinary loses. Write all entry content yourself in this session — do NOT hand the writing to a subagent. Author every line fresh yourself. Revise at least one file in a second pass. Never write a line like 'Commit: <sha> Author: <name> <email>'. IMPORTANT: gitignore kit/ + competition.json + requirements.json BEFORE the first commit — never commit the kit files (they break thinking_reproduces). README.md must contain the 3 live make.fun badge images from how_to_submit.readme_template plus a Run section and referral footer https://make.fun/?ref=sqj6a0rx — write README.md and .makefun/owner.json DURING the build. LICENSE MIT with SPDX-License-Identifier: MIT as the FIRST line. owner.json payout wallet (Solana): DNoVgqbP8L88qf4JFVx5LjKABuQve5WxMBsJQ8EJcfQs. Test locally per the kit. If the kit tarball cannot be unpacked (safety check), build from the competition JSON + requirements saved in the workspace and say so in your report — do not stop the build. This competition is FREE (entryFeeUsd 0) — build it fully; the parent bundles, kit-checks and auto-submits per the standing auto-submit order. When done, report repo URL, full 40-char commit sha, the one line, and test results."
+
+When the builder finishes, report its repo URL and full commit sha in your final message so the main agent can bundle and kit-check it. Log progress to ~/memory/2026-11-25.md. Do not edit MEMORY.md.
